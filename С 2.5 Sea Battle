@@ -3,11 +3,6 @@ from tkinter import *
 from tkinter import messagebox
 import time
 
-#Водная часть
-def greet()
-    print("..............................")
-    print("Welcome to the game Sea Battle")
-
 #Создаём объект
 tk = Tk()
 app_running = True
