@@ -1,0 +1,18 @@
+# Вводная часть
+def greet()
+    print("...............")
+    print("Welcome to the game Sea Battle")
+    print("..........")
+    print("Input format: х y")
+    print("x - line number")
+    print("y - column number")
+# Задаём игровую обалсть
+def show():
+    print()
+    print(" │ 0 │ 1 │ 2 │ 3 | 4 | 5 | 6 |")
+    print("...............")
+    for i, row in enumerate(field):
+        row_str = f" {i} │ {'|'.join(row)}|"
+        print(row_str)
+        print("...............")
+        print()
